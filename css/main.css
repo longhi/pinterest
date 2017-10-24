@@ -1,0 +1,39 @@
+/*Hacer las formas de la parte de arriba*/
+.cuadrado{ background-color:#E40613;
+           width: 500px;
+           height: 100px;
+           position: absolute;
+           left:550px;
+           top:20px;}
+
+/*hacemos el segundo fondo de la parte de arriba*/
+.forma{
+           width: 500px;
+           border-left: 82px solid transparent;
+           border-right: 0px solid transparent;
+           border-bottom: 70px solid #8C1914;
+           top:120px;
+           left: 468px;
+           position: absolute;
+           }
+/*ponemos el logo de java*/
+img{
+          position: relative;
+          margin-left: 375px;
+}
+/*damos un fondo*/
+.fondo{
+          background-color: #E61E2B;
+          width: 700px;
+          height: 2000px;
+          position: absolute;
+          margin-left: 342px;
+          margin-top: 30px;
+        }
+p{        color:white;
+          font-family:inherit;
+          position: relative;
+          text-align: center;
+          font-size: 15px;
+           margin-left: 60px;
+         margin-right: 60px;}

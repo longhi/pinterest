@@ -29,11 +29,18 @@ span{
 }
 /*hacemos un rectangulo*/
 .search{
-  background-color: #EFEFEF;
-  width: 800px;
-  height: 30px;
+
   display: inline-block;
   margin-top:10px; }
+
+  input {
+      width: 880px;
+      padding: 10px;
+      border-radius: 21px;
+      display: inline-block;
+      margin-top:2px;
+
+  }
 /*modificamos tamaño de los iconos */
 [class^="icon-"], [class*=" icon-"] {
   font-size: 20px;
@@ -42,24 +49,40 @@ span{
 .icon-search{
   position:absolute;
   display: inline;
+  top : 20px;
+  left: 70px;
 }
 .icon-circle-down{
   position:absolute;
   display: inline;
-  margin-left: 700px;
+  margin-left: 850px;
+  top : 20px;
+
 }
 .icon-cross{
 position:absolute;
 display: inline;
-margin-left: 600px;
+margin-left: 740px;
+top: 20px;
+
 
 }
 /*ponemos el lugar donde va el texto */
 .text{position:absolute;
 display: inline;
-margin-left:630px;
+margin-left:770px;
 font-size: 20px;
-margin-top:6px;}
+top: 4px;}
+
+
+button{
+  background-color: #958A89;
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  align:center;
+
+}
 
 img{
   width: 220px;
@@ -79,12 +102,13 @@ img{
   margin-right: 15px;
   margin-bottom:15px ;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+}
 
 
 
 }
 .elemento p{
-  padding: 10px;
+  padding: 11px;
   font-size: 13px;
 }
 .elemento img{

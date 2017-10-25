@@ -1,39 +1,91 @@
-/*Hacer las formas de la parte de arriba*/
-.cuadrado{ background-color:#E40613;
-           width: 500px;
-           height: 100px;
-           position: absolute;
-           left:550px;
-           top:20px;}
+/*HEADER*/
 
-/*hacemos el segundo fondo de la parte de arriba*/
-.forma{
-           width: 500px;
-           border-left: 82px solid transparent;
-           border-right: 0px solid transparent;
-           border-bottom: 70px solid #8C1914;
-           top:120px;
-           left: 468px;
-           position: absolute;
-           }
-/*ponemos el logo de java*/
-img{
-          position: relative;
-          margin-left: 375px;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
 }
-/*damos un fondo*/
-.fondo{
-          background-color: #E61E2B;
-          width: 700px;
-          height: 2000px;
-          position: absolute;
-          margin-left: 342px;
-          margin-top: 30px;
-        }
-p{        color:white;
-          font-family:inherit;
-          position: relative;
-          text-align: center;
-          font-size: 15px;
-           margin-left: 60px;
-         margin-right: 60px;}
+.box-header2{
+  position:absolute;
+  display: inline;
+  margin-top:20px;
+  padding-left: 150px;
+}
+span{
+  margin:15px;
+  width: 1;
+  margin-top:7px;
+
+}
+/*reducimos el logo */
+.logo-header{
+  width: 30px;
+}
+/*modificamos  la primera caja */
+.box-header {
+  display: inline ;
+  margin-top:10px;
+}
+/*hacemos un rectangulo*/
+.search{
+  background-color: #EFEFEF;
+  width: 800px;
+  height: 30px;
+  display: inline-block;
+  margin-top:10px; }
+/*modificamos tamaño de los iconos */
+[class^="icon-"], [class*=" icon-"] {
+  font-size: 20px;
+}
+/*colocamos el margen y el lugar donde ira los iconos*/
+.icon-search{
+  position:absolute;
+  display: inline;
+}
+.icon-circle-down{
+  position:absolute;
+  display: inline;
+  margin-left: 700px;
+}
+.icon-cross{
+position:absolute;
+display: inline;
+margin-left: 600px;
+
+}
+/*ponemos el lugar donde va el texto */
+.text{position:absolute;
+display: inline;
+margin-left:630px;
+font-size: 20px;
+margin-top:6px;}
+
+img{
+  width: 220px;
+
+
+}
+.contenedor{
+  width: 90%;
+  margin: 25px auto;
+  position: relative;
+
+}
+.elemento{
+  width: 220px;
+  background: #fff;
+  float: left;
+  margin-right: 15px;
+  margin-bottom:15px ;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+
+
+
+}
+.elemento p{
+  padding: 10px;
+  font-size: 13px;
+}
+.elemento img{
+  width: 100%;}
